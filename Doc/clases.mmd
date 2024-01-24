@@ -1,0 +1,85 @@
+classDiagram
+class Cajero{
+    +int id
+    +String descripcion
+    +int ubicacion
+    +int inventario
+    +int estado
+    +boolean activo
+    leerTarjeta() 
+    validarPIN()
+    mostrarMenu() 
+    dispensarEfectivo()
+}
+class Tarjeta{
+    +int cuenta
+    +String numero
+    +int BIN
+    +int fechaVencimiento
+    +boolean activo
+    validar()
+    bloquear()
+    desbloquear()
+}
+class Cliente{
+    +int codigoCliente
+    +String nombre
+    +String documento
+    +String telefono
+    +String correo
+    +boolean activo
+    consultarSaldo()
+    retirarDinero()
+    depositarDinero()
+    transferirDinero()
+}
+class Cuenta{
+    +int numero
+    +char moneda
+    +float saldo
+    +boolean activo
+    debitar()
+    acreditar()
+    transferir()
+}
+class Transaccion{
+    +int id
+    +char tipo
+    +int fecha
+    +int hora
+    +float monto
+    +float comision
+    +char estado
+    ejecutar()
+    registrar()
+    notificar()
+}
+class TasaDeCambio{
+    +char monedaOrigen
+    +char monedaDestino
+    +float valor
+    +int fecha
+    consultar()
+    actualizar()
+    aplicar()
+}
+class Operador{
+    +int id
+    +String usuario
+    +String contrasena
+    +char rol
+    +boolean activo
+    acceder()
+    actualizarTasasDeCambio()
+    monitorearCajeros()
+}
+
+Cajero --|> Tarjeta
+Cajero --|> Cliente
+Cajero --|> Transaccion
+Cliente --|> Cuenta
+Transaccion --|> TasaDeCambio
+Operador --|> Cajero
+Operador --|> TasaDeCambio
+
+

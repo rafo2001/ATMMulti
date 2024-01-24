@@ -1,0 +1,34 @@
+  sequenceDiagram
+    participant Usuario
+    participant Interfaz de Usuario
+    participant MicroservicioTransacciones
+    participant MicroservicioCuentas
+    participant MicroservicioTransaccionesDB
+    participant MicroservicioTasasDeCambio
+
+    Usuario->>Interfaz de Usuario: Solicitud de consulta el saldo.
+    Interfaz de Usuario->>MicroservicioTransacciones: Envía una solicitud.
+    MicroservicioTransacciones->>MicroservicioCuentas: Obtener el saldo correspondiente.
+    MicroservicioCuentas->>MicroservicioTransacciones: Responde con el saldo.
+    MicroservicioTransacciones->>Interfaz de Usuario: Devuelve la respuesta con el saldo al usuario.
+
+    Usuario->>Interfaz de Usuario: Solicitud para realizar un depósito.
+    Interfaz de Usuario->>MicroservicioTransacciones: Envía una solicitud con detalles del depósito.
+    MicroservicioTransacciones->>MicroservicioCuentas: Actualizar el saldo de la cuenta del usuario.
+    MicroservicioCuentas->>MicroservicioTransacciones: Actualiza el saldo y confirma la transacción.
+    MicroservicioTransacciones->>MicroservicioTransaccionesDB: Registra la transacción.
+    MicroservicioTransaccionesDB->>Interfaz de Usuario: Se devuelve una confirmación al usuario.
+
+    Usuario->>Interfaz de Usuario: Solicitud para realizar una conversión de moneda.
+    Interfaz de Usuario->>MicroservicioTransacciones: Envía una solicitud con detalles de la conversión.
+    MicroservicioTransacciones->>MicroservicioTasasDeCambio: Obtener la tasa de cambio actual.
+    MicroservicioTransacciones->>MicroservicioCuentas: Realiza la conversión y actualiza los saldos.
+    MicroservicioTransacciones->>MicroservicioTransaccionesDB: Se registra la transacción.
+    MicroservicioTransacciones->>Interfaz de Usuario: Se devuelve una confirmación al usuario.
+
+    Usuario->>Interfaz de Usuario: Solicitud para realizar un retiro.
+    Interfaz de Usuario->>MicroservicioTransacciones: Envía una solicitud con detalles del retiro.
+    MicroservicioTransacciones->>MicroservicioCuentas: Verificar el saldo disponible.
+    MicroservicioCuentas->>MicroservicioTransacciones: Actualiza saldo y confirma si hay fondos suficientes.
+    MicroservicioTransacciones->>MicroservicioTransaccionesDB: Registra en DB si transacción es exitosa.
+    MicroservicioTransacciones->>Interfaz de Usuario: Se devuelve una confirmación o error al usuario.

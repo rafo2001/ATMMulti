@@ -1,0 +1,14 @@
+graph TD
+    A[Gestión de Cuentas] -->|Crea cuentas en ambas monedas.| B[Microservicio de Gestión de Cuentas]
+    A -->|Mantener registros de saldos| C[Almacenamiento de Información de Cuentas]
+    A -->|Consultar saldo| B
+    C -->|Registro de Cuenta| B
+    F[Microservicio de Gestión de Transacciones] -->|Actualizar Saldos| B
+    F -->|Convertir moneda | I[Microservicio de Gestión de Tasas de Cambio]
+    E[Gestión de transacciones] -->|Procesar depósitos y retiros| F
+    E -->|Realizar conversiones de moneda| F
+    E -->|Registro en DB de cada transacción| F
+    H[Registro de Transacciones] -->|Almacena detalles de transacción| F
+    G[Gestion de Tasas de Cambio] -->|Gestión de tasas de cambio| I
+    G -->|Exponer servicios de consulta tasas de cambio.| I
+    I -->|Almacena tasas de cambio| K[Almacenamiento de Tasas de Cambio]
