@@ -1,77 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T06:23:52.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="aV9DU5JWy-BGwrCvq3Pw" version="23.0.0" type="github">
-  <diagram name="Página-1" id="vtzQuZXqH9f9H9y8ayy0">
-    <mxGraphModel dx="608" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-01-25T03:19:46.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.0.0" etag="aJWH6QKJ98DVFOyZtkI4" type="github">
+  <diagram name="Página-1" id="EOvbPPoK-KyQcgYR5lya">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-10" value="Gestion de Cuentas" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="150" y="510" width="360" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-1" target="YsSS0be1jV-rPrGmJ0yN-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-1" target="YsSS0be1jV-rPrGmJ0yN-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="585" />
-              <mxPoint x="100" y="745" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-1" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="555" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-2" value="Operador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="820" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-5" value="Transferir dinero" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="540" width="110" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-7" value="Consultar saldo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="600" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-8" value="Depositar dinero" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="660" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-9" value="Reirar dinero" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="720" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-1" target="YsSS0be1jV-rPrGmJ0yN-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="595" as="sourcePoint" />
-            <mxPoint x="190" y="573" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-1" target="YsSS0be1jV-rPrGmJ0yN-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="120" y="585" />
-              <mxPoint x="120" y="690" />
-              <mxPoint x="180" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-5" target="YsSS0be1jV-rPrGmJ0yN-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="805" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YsSS0be1jV-rPrGmJ0yN-5" target="YsSS0be1jV-rPrGmJ0yN-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="805" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="320" y="563" />
-              <mxPoint x="320" y="620" />
-              <mxPoint x="350" y="620" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-18" value="Autenticar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="350" y="540" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="YsSS0be1jV-rPrGmJ0yN-19" value="Enviar recibo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="350" y="610" width="110" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
