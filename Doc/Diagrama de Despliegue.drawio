@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-01-25T05:02:38.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.0.0" etag="dhoaeZNARvbvyixuFBd2" type="device">
+  <diagram id="FhfcTT7n9CURKHnD49qp" name="Página-1">
+    <mxGraphModel dx="996" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.2" y="50" width="507.8" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-1" target="vu9O5FSTWDZDIoVz5vG7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user.svg;" vertex="1" parent="1">
+          <mxGeometry x="20" y="249" width="18.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-3" target="vu9O5FSTWDZDIoVz5vG7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-3" value="ATM" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/essential-pack/32/41-Atm-128.png" vertex="1" parent="1">
+          <mxGeometry x="80" y="249" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-7" target="vu9O5FSTWDZDIoVz5vG7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-7" target="vu9O5FSTWDZDIoVz5vG7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-7" value="Api Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="228" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-13" target="vu9O5FSTWDZDIoVz5vG7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-13" value="MicroservicioTransacciones" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="86" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-14" target="vu9O5FSTWDZDIoVz5vG7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-14" value="MicroservicioCuentas" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vu9O5FSTWDZDIoVz5vG7-17" target="vu9O5FSTWDZDIoVz5vG7-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-17" value="MicroservicioTasasDeCambio" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="275.5" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-18" value="RDS Cuentas" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354.15000000000003" y="200" width="53.9" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-22" value="RDS TasasDeCambio" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504.1500000000001" y="385.5" width="53.9" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-25" value="DBD Transacciones" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="664.1" y="200" width="53.9" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-27" value="IAM" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="177.25" y="389" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-30" value="CloudWatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" width="82.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-34" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="187" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-35" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="718" y="180" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="vu9O5FSTWDZDIoVz5vG7-36" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="558.05" y="360" width="50" height="41" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
